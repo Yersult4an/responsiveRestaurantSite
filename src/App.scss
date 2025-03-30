@@ -1,0 +1,344 @@
+// NAV START
+.nav-main {
+	position: fixed;
+	max-width: 1440px;
+	width: 100%;
+	padding-inline: 90px;
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 999;
+}
+
+.nav-mobile{
+	display: none;
+}
+
+.nav-main__list {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+
+	a {
+		color: rgb(0, 132, 255);
+		font-weight: bold;
+		font-size: 25px;
+	}
+}
+// NAV END
+
+.wrapper {
+	max-width: 1440px;
+	width: 100%;
+	margin: auto;
+}
+
+// HERO-RESTAURANT START
+.hero-restaurant {
+	width: 100%;
+	min-height: 796px;
+	background-image: url('./assets/Hero-Shape.png'),
+		url('./assets/Hero-Background.png');
+	background-size: cover;
+	display: flex;
+}
+
+.hero-restaurant__main {
+	width: 100%;
+	min-height: 796px;
+	row-gap: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-restaurant__title {
+	color: white;
+	font-size: 108px;
+	font-weight: bold;
+}
+
+.hero-restaurant__description {
+	font-size: 30px;
+	color: white;
+}
+
+.hero-restaurant__button {
+	font-size: 25px;
+	border-radius: 4px;
+	background-color: rgb(246, 211, 101);
+	width: 322px;
+	height: 65px;
+	color: #333;
+	font-weight: bold;
+}
+// HERO-RESTAURANT END
+
+// RESTAURANT-POPULAR START
+.restaurant-popular {
+	width: 100%;
+	min-height: 796px;
+	background-image: url('./assets/PopularMenuBackground.png');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.restaurant-popular__title {
+	text-align: center;
+	font-size: 64px;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+}
+
+.restaurant-popular__description {
+	font-size: 23px;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.restaurant-popular__albums {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 90px;
+	flex-wrap: wrap;
+}
+
+.restaurant-popular__album {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.restaurant-popular__album-title {
+	font-size: 32px;
+	color: #333;
+	font-weight: bold;
+	padding-bottom: 30px;
+	padding-top: 22px;
+}
+
+.restaurant-popular__album-description {
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+}
+
+// RESTAURANT-POPULAR END
+
+// CHICKWING START
+.chickwing {
+	background-color: rgb(51, 51, 51);
+	padding-block: 64px;
+	padding-left: 138px;
+	padding-right: 98px;
+}
+
+.chickwing__main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.chickwing__group {
+	display: flex;
+	gap: 73px;
+	flex-direction: column;
+}
+
+.chickwing__title {
+	font-size: 58px;
+	color: white;
+	font-weight: bold;
+}
+
+.chickwing__description {
+	font-size: 30px;
+	color: white;
+}
+
+.chickwing__button {
+	border-radius: 4px;
+	background-color: rgb(246, 211, 101);
+	width: 322px;
+	height: 65px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #333;
+}
+
+// CHICKWING END
+
+// STATISTIC START
+.statistic{
+  background-color: rgb(246, 211, 101);
+	padding-top: 100px;
+	padding-bottom: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.statistic__title{
+	padding-bottom:55px;
+	color: #333;
+	font-weight: bold;
+	font-size: 62px;
+}
+
+.statistic__description{
+	padding-bottom: 85px;
+	text-align: center;
+	font-size: 25px;
+	color: #333;
+}
+
+.statistic__shapes{
+	display: flex;
+	justify-content: center;
+	gap: 90px;
+	flex-wrap: wrap;
+}
+
+
+
+.statistic__shape {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-width: 10px;
+  border-color: rgb(51, 51, 51);
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+
+	h3{
+		font-size: 75px;
+		font-weight: bold;
+		color: #333;
+		padding-bottom: 54px;
+	}
+	h4{
+		font-size: 33.3px;
+		font-weight: bold;
+		color: #333;
+	}
+}
+
+// STATISTIC END
+
+// FOOTER START
+.footer{
+	padding-block:298px;
+	padding-inline: 93px;
+	background-color: #333;
+	color: white;
+}
+
+.footer__groups{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.footer__icons{
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	padding-top: 35px;
+}
+
+.footer__description{
+	font-size: 24px;
+}
+
+.footer__title{
+	font-size: 32px;
+	padding-bottom: 40px;
+}
+
+.footer__group{
+	display: flex;
+	gap: 50px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+a.footer__description{
+	display: inline-block;
+	padding-bottom: 24px;
+}
+
+// FOOTER END
+
+.nav-mobile-menu{
+	display: none;
+}
+
+// MEDIA START
+@media screen  and (max-width:1120px){
+	//NAVIGATION
+	.nav-main__list{
+		display: none;
+	}
+
+	.nav-main{
+		padding: 20px;
+	}
+
+	.nav-mobile-menu{
+		display: block;
+	}
+
+	
+
+	.nav-mobile{
+		top: 0;
+		left: 100%;
+		transition: all 0.5s;
+		display: block;
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: rgba($color: #000000, $alpha: 0.9);
+
+		ul{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+		}
+
+		li{
+			font-size: 32px;
+			a{
+				color: white;
+			}
+		}
+	}
+
+	.nav-mobile.on-close{
+		left: 0%;
+	}
+	
+
+	// CHICKWING
+	.chickwing{
+		padding: 0;
+	}
+} 
+//MEDIA END
